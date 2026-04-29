@@ -1,8 +1,8 @@
-\# Nmap Scan Investigation
+# Nmap Scan Investigation
 
 
 
-\## Summary
+## Summary
 
 
 
@@ -10,23 +10,23 @@ A SYN scan was launched from Kali Linux against Ubuntu Victim using Nmap.
 
 
 
-\## Evidence
+## Evidence
 
 
 
-\- Repeated SYN packets observed
+- Repeated SYN packets observed
 
-\- Multiple destination ports probed
+- Multiple destination ports probed
 
-\- Suricata detected scan behavior
+- Suricata detected scan behavior
 
-\- Wazuh logged the event
+- Wazuh logged the event
 
-\- Packet capture confirmed scan pattern
+- Packet capture confirmed scan pattern
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
