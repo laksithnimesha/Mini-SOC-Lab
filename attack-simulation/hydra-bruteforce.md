@@ -1,8 +1,8 @@
-\# Hydra SSH Brute Force Simulation
+# Hydra SSH Brute Force Simulation
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ Simulate SSH brute-force attempts from Kali Linux to Ubuntu Victim.
 
 
 
-\## Command Used
+## Command Used
 
 
 
