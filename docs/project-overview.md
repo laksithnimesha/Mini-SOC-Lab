@@ -1,4 +1,4 @@
-\# Project Overview
+# Project Overview
 
 
 
@@ -10,15 +10,15 @@ This project was designed to demonstrate core SOC concepts including:
 
 
 
-\- attack simulation
+- attack simulation
 
-\- endpoint monitoring
+- endpoint monitoring
 
-\- network intrusion detection
+- network intrusion detection
 
-\- SIEM alerting
+- SIEM alerting
 
-\- packet-level investigation
+- packet-level investigation
 
 
 
@@ -34,21 +34,21 @@ The project simulates common attack scenarios such as:
 
 
 
-\- reconnaissance (Nmap)
+- reconnaissance (Nmap)
 
-\- SSH brute-force (Hydra)
+- SSH brute-force (Hydra)
 
 
 
 These attacks are detected through:
 
-\- endpoint logs
+- endpoint logs
 
-\- IDS alerts
+- IDS alerts
 
-\- SIEM correlation
+- SIEM correlation
 
-\- packet capture validation
+- packet capture validation
 
 
 
