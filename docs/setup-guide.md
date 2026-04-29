@@ -1,4 +1,4 @@
-\# Setup Guide
+# Setup Guide
 
 
 
@@ -6,11 +6,11 @@ This document outlines how the Mini SOC Lab was built in a controlled VMware env
 
 
 
-\---
+---
 
 
 
-\## Lab Environment
+## Lab Environment
 
 
 
@@ -18,7 +18,7 @@ The lab consists of three virtual machines:
 
 
 
-\- Kali Linux (Attacker)
+- Kali Linux (Attacker)
 
 \- Ubuntu Victim (Monitored Host)
 
@@ -30,51 +30,51 @@ All systems were connected using a host-only virtual network.
 
 
 
-\---
+---
 
 
 
-\## Components Installed
+## Components Installed
 
 
 
-\### Kali Linux
+### Kali Linux
 
 Used for attack simulation:
 
-\- Nmap
+- Nmap
 
-\- Hydra
+- Hydra
 
 
 
-\### Ubuntu Victim
+### Ubuntu Victim
 
 Used as the monitored target system:
 
-\- Wazuh Agent
+- Wazuh Agent
 
-\- Suricata IDS
+- Suricata IDS
 
-\- tcpdump
+- tcpdump
 
-\- Wireshark
+- Wireshark
 
 
 
-\### Ubuntu SOC Server
+### Ubuntu SOC Server
 
 Used as the central monitoring server:
 
-\- Wazuh Manager
+- Wazuh Manager
 
-\- Wazuh Indexer
+- Wazuh Indexer
 
-\- Wazuh Dashboard
+- Wazuh Dashboard
 
 
 
-\---
+---
 
 
 
@@ -94,29 +94,29 @@ Used as the central monitoring server:
 
 
 
-\---
+---
 
 
 
-\## Setup Summary
+## Setup Summary
 
 
 
-1\. Created three virtual machines in VMware
+1. Created three virtual machines in VMware
 
-2\. Configured static IP addresses
+2. Configured static IP addresses
 
-3\. Installed Wazuh on SOC Server
+3. Installed Wazuh on SOC Server
 
-4\. Installed Wazuh Agent on Ubuntu Victim
+4. Installed Wazuh Agent on Ubuntu Victim
 
-5\. Connected Ubuntu Agent to Wazuh Manager
+5. Connected Ubuntu Agent to Wazuh Manager
 
-6\. Installed and configured Suricata
+6. Installed and configured Suricata
 
-7\. Forwarded Suricata logs to Wazuh
+7. Forwarded Suricata logs to Wazuh
 
-8\. Simulated attacks from Kali
+8. Simulated attacks from Kali
 
-9\. Validated detections with packet captures
+9. Validated detections with packet captures
 
