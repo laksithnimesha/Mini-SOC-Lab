@@ -1,4 +1,4 @@
-\# Custom SSH Brute Force Detection Rule
+# Custom SSH Brute Force Detection Rule
 
 
 
@@ -6,21 +6,21 @@ This custom Wazuh rule detects repeated SSH authentication failures from the sam
 
 
 
-\## Rule Logic
+## Rule Logic
 
 
 
-\- Trigger when 5 SSH authentication failures occur
+- Trigger when 5 SSH authentication failures occur
 
-\- Time window: 60 seconds
+- Time window: 60 seconds
 
-\- Correlate by source IP
+- Correlate by source IP
 
-\- Raise high-severity brute-force alert
+- Raise high-severity brute-force alert
 
 
 
-\## Detection Purpose
+## Detection Purpose
 
 
 
@@ -28,9 +28,9 @@ This rule improves detection of SSH brute-force attacks beyond default authentic
 
 
 
-\## MITRE ATT\&CK Mapping
+## MITRE ATT\&CK Mapping
 
 
 
-\- T1110 — Brute Force
+- T1110 — Brute Force
 
