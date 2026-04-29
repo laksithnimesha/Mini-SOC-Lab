@@ -1,8 +1,8 @@
-\# SSH Brute Force Investigation
+# SSH Brute Force Investigation
 
 
 
-\## Summary
+## Summary
 
 
 
@@ -10,23 +10,23 @@ A brute-force SSH attack was simulated from Kali Linux against Ubuntu Victim usi
 
 
 
-\## Evidence
+## Evidence
 
 
 
-\- Repeated SSH authentication failures
+- Repeated SSH authentication failures
 
-\- Same source IP
+- Same source IP
 
-\- High-frequency login attempts
+- High-frequency login attempts
 
-\- Wazuh alerts generated
+- Wazuh alerts generated
 
-\- SSH traffic validated via packet capture
+- SSH traffic validated via packet capture
 
 
 
-\## Conclusion
+## Conclusion
 
 
 
