@@ -1,8 +1,8 @@
-\# Nmap SYN Scan Simulation
+# Nmap SYN Scan Simulation
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ Simulate reconnaissance activity from Kali Linux to Ubuntu Victim.
 
 
 
-\## Command Used
+## Command Used
 
 
 
