@@ -1,4 +1,4 @@
-\# Lessons Learned
+# Lessons Learned
 
 
 
@@ -6,7 +6,7 @@ This project provided practical experience in building and operating a small-sca
 
 
 
-\## Key Lessons
+## Key Lessons
 
 
 
@@ -16,7 +16,7 @@ Wazuh provided centralized visibility, but meaningful detection required integra
 
 
 
-\### Alerts require validation
+### Alerts require validation
 
 An alert alone is not enough. Packet capture was necessary to validate suspicious activity and confirm what actually happened on the network.
 
@@ -28,33 +28,32 @@ Detection accuracy improved significantly after integrating Suricata logs and tu
 
 
 
-\### Correlation matters
+### Correlation matters
 
 Single authentication failures are low-value alerts. Correlating repeated failures into brute-force behavior produces stronger detections.
 
 
 
-\### Packet evidence improves investigations
+### Packet evidence improves investigations
 
 Using tcpdump and Wireshark made it possible to confirm attacks with direct packet-level evidence.
 
 
 
-\## Outcome
+## Outcome
 
 
 
 This project improved practical understanding of:
 
-\- SOC workflows
+- SOC workflows
 
-\- SIEM operations
+- SIEM operations
 
-\- IDS integration
+- IDS integration
 
-\- detection engineering
+- detection engineering
 
-\- packet analysis
+- packet analysis
 
-\- alert investigation
-
+- alert investigation
