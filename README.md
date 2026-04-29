@@ -1,4 +1,4 @@
-\# Mini SOC Lab
+# Mini SOC Lab
 
 
 
@@ -6,11 +6,11 @@ A practical Mini Security Operations Center (SOC) built using Wazuh, Suricata, a
 
 
 
-\---
+---
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,149 +18,149 @@ This project demonstrates a complete SOC workflow:
 
 
 
-\- Simulate attacks from Kali Linux
+- Simulate attacks from Kali Linux
 
-\- Monitor endpoint and network activity on Ubuntu
+- Monitor endpoint and network activity on Ubuntu
 
-\- Detect threats using Suricata IDS
+- Detect threats using Suricata IDS
 
-\- Correlate and visualize alerts in Wazuh SIEM
+- Correlate and visualize alerts in Wazuh SIEM
 
-\- Validate detections using packet capture (tcpdump/Wireshark)
+- Validate detections using packet capture (tcpdump/Wireshark)
 
 
 
-\---
+---
 
 
 
-\## Architecture
+## Architecture
 
 
 
-!\[Mini SOC Architecture](architecture/mini-soc-architecture.png)
+![Mini SOC Architecture](architecture/mini-soc-architecture.png)
 
 
 
-\---
+---
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\- Wazuh
+- Wazuh
 
-\- Suricata
+- Suricata
 
-\- Kali Linux
+- Kali Linux
 
-\- Ubuntu
+- Ubuntu
 
-\- Hydra
+- Hydra
 
-\- Nmap
+- Nmap
 
-\- tcpdump
+- tcpdump
 
-\- Wireshark
+- Wireshark
 
 
 
-\---
+---
 
 
 
-\## Attack Simulations
+## Attack Simulations
 
 
 
-\- Nmap SYN Scan
+- Nmap SYN Scan
 
-\- SSH Brute Force (Hydra)
+- SSH Brute Force (Hydra)
 
 
 
-\---
+---
 
 
 
-\## Detection Capabilities
+## Detection Capabilities
 
 
 
-\- SSH authentication failures
+- SSH authentication failures
 
-\- SSH brute-force detection
+- SSH brute-force detection
 
-\- Network IDS alerts
+- Network IDS alerts
 
-\- Suricata event ingestion
+- Suricata event ingestion
 
-\- Packet-level validation
+- Packet-level validation
 
 
 
-\---
+---
 
 
 
-\## Investigation Workflow
+## Investigation Workflow
 
 
 
-1\. Attack simulated from Kali
+1. Attack simulated from Kali
 
-2\. Traffic reaches Ubuntu Victim
+2. Traffic reaches Ubuntu Victim
 
-3\. Suricata inspects packets
+3. Suricata inspects packets
 
-4\. Wazuh collects and correlates logs
+4. Wazuh collects and correlates logs
 
-5\. Alerts appear in dashboard
+5. Alerts appear in dashboard
 
-6\. Packets validated with tcpdump / Wireshark
+6. Packets validated with tcpdump / Wireshark
 
 
 
-\---
+---
 
 
 
-\## Screenshots
+## Screenshots
 
 
 
-See `/screenshots` for:
+See `screenshots` for:
 
-\- Dashboard
+- Dashboard
 
-\- Alerts
+- Alerts
 
-\- Suricata detections
+- Suricata detections
 
-\- Packet captures
+- Packet captures
 
-\- Wireshark analysis
+- Wireshark analysis
 
 
 
-\---
+---
 
 
 
-\## Key Outcomes
+## Key Outcomes
 
 
 
-\- Built a functioning Mini SOC
+- Built a functioning Mini SOC
 
-\- Integrated IDS with SIEM
+- Integrated IDS with SIEM
 
-\- Simulated offensive attacks
+- Simulated offensive attacks
 
-\- Investigated alerts with packet evidence
+- Investigated alerts with packet evidence
 
-\- Practiced detection and analysis workflow
+- Practiced detection and analysis workflow
 
