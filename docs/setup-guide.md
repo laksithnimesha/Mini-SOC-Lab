@@ -20,9 +20,9 @@ The lab consists of three virtual machines:
 
 - Kali Linux (Attacker)
 
-\- Ubuntu Victim (Monitored Host)
+- Ubuntu Victim (Monitored Host)
 
-\- Ubuntu SOC Server (Wazuh SIEM)
+- Ubuntu SOC Server (Wazuh SIEM)
 
 
 
@@ -78,7 +78,7 @@ Used as the central monitoring server:
 
 
 
-\## Network Configuration
+## Network Configuration
 
 
 
